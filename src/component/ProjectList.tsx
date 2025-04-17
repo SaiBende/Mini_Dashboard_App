@@ -76,13 +76,13 @@ const ProjectList = () => {
             </div>
             <div>
               <button
-                className="bg-blue-500 text-white px-4 py-2 rounded mr-2"
+                className="bg-blue-500 text-white px-4 py-2 mb-2  rounded mr-2"
                 onClick={() => setEditingProject(project)}
               >
                 Edit
               </button>
               <button
-                className="bg-red-500 text-white px-4 py-2 rounded"
+                className="bg-red-500 text-white px-4 py-2 mb-2 rounded"
                 onClick={() => confirmDelete(project.id!)}
               >
                 Delete
