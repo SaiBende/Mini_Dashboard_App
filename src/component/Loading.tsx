@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { OrbitProgress } from 'react-loading-indicators'
 
 function Loading() {

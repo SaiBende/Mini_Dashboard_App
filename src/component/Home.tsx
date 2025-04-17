@@ -1,4 +1,4 @@
-import React from "react";
+
 import SignInWithGoogle from "./sign-in-with-google";
 
 const Home = () => {
