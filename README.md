@@ -30,3 +30,70 @@ Before you begin, ensure you have the following installed on your system:
    ```bash
    git clone https://github.com/your-username/Mini_SaaS_Dashboard.git
    cd Mini_SaaS_Dashboard
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+   or if you use yarn:
+
+   ```bash
+   yarn install
+   ```
+
+3. Configure Firebase:
+
+   - Replace the Firebase configuration in `src/firebase/firebase.tsx` with your Firebase project's credentials.
+
+---
+
+## Running the Project
+
+### Development Server
+
+To start the development server, run:
+
+```bash
+npm run dev
+```
+
+or with yarn:
+
+```bash
+yarn dev
+```
+
+This will start the Vite development server. Open your browser and navigate to `http://localhost:5173`.
+
+### Build for Production
+
+To build the project for production, run:
+
+```bash
+npm run build
+```
+
+or with yarn:
+
+```bash
+yarn build
+```
+
+The production-ready files will be in the `dist` directory.
+
+### Preview Production Build
+
+To preview the production build, run:
+
+```bash
+npm run preview
+```
+
+or with yarn:
+
+```bash
+yarn preview
+```
+
